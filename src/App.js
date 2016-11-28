@@ -42,7 +42,7 @@ class App extends Component {
     return (
       <li className="list-group-item" key={index}>
         <span className="pull-right">
-          <button className="btn btn-xs btn-primary" data-clipboard-target={`item-${index}`}><i className="fa fa-clipboard"></i></button>
+          <button className="btn btn-xs btn-primary" data-clipboard-target={`#item-${index}`}><i className="fa fa-clipboard"></i></button>
           &nbsp;
           <button className="btn btn-xs btn-danger" onClick={() => this.handleRemove(index)}><i className="fa fa-times"></i></button>
         </span>
